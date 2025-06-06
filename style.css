@@ -27,7 +27,7 @@ body{
     font-weight: 700;
     color: rgba(47, 47, 47, 0.865);
 }
-main{
+.main{
     display: grid;
     grid-template: auto auto auto/1fr;
     grid-auto-flow: column;
@@ -74,7 +74,7 @@ svg{
         grid-template: repeat(3,auto)/1fr;
      
     }
-    main{
+    .main{
         justify-self: center;
         grid-template:1fr/repeat(3,300px);
         grid-template-areas: 
@@ -95,7 +95,7 @@ svg{
         grid-area: col2;
     }
     
-    header,header *,footer{
+    .header,.header *,footer{
         justify-items: center;
     }
     .intro{
@@ -104,7 +104,7 @@ svg{
     .intro > p{
         text-align: center;
     }
-    footer{
+    .footer{
         margin-top:5vh;
     }
 
